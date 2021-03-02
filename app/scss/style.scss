@@ -1,0 +1,42 @@
+
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000;
+    font-weight: 400;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+
+@import 'base/variable';
+@import 'blocks/header';
+@import 'blocks/about-company';
+@import 'blocks/brands';
