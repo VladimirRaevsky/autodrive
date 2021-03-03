@@ -1,0 +1,26 @@
+
+
+.brands {
+    padding: 41px 0px 95px;
+}
+
+.brands__title {
+    margin-bottom: 27px;
+}
+
+.brands__descr {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 53px;
+    color: #000000;
+}
+.brands__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 87px);
+    column-gap: 89px;
+    justify-content: center;
+    row-gap: 10px;
+}
+.brands__item {
+    max-width: 100%;
+}
